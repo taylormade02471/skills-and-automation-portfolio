@@ -1,0 +1,22 @@
+# Secrets and local account state
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.saml
+*.session
+*cookies*
+*credentials*
+*token*
+private/
+secrets/
+
+# Local tooling and generated work
+.venv/
+node_modules/
+__pycache__/
+*.log
+downloads/
+scratch/

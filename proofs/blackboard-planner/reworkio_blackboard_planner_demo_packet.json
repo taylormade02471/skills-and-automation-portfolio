@@ -1,0 +1,63 @@
+{
+  "packet_type": "blackboard_planner_proof_demo",
+  "status": "synthetic_demo_only",
+  "school_week": {
+    "week_number": 7,
+    "week_start": "2026-10-26",
+    "week_end": "2026-11-01",
+    "timezone": "America/Chicago"
+  },
+  "preflight": {
+    "page_host": "demo.blackboard.invalid",
+    "page_type": "synthetic_course_outline",
+    "exact_course_verified": true,
+    "authentication_prompt_present": false,
+    "integrity_prompt_present": false,
+    "live_browser_evidence": false,
+    "status": "synthetic_demo_only"
+  },
+  "routes": [
+    {
+      "course_key": "CRJ",
+      "course_id": "demo-crj-course",
+      "item": {
+        "week_number": 7,
+        "item_type": "assignment",
+        "item_title": "Demo Security Assignment",
+        "due_date": "2026-10-30T23:59:00-05:00",
+        "source_status": "synthetic_demo",
+        "draft_status": "review_required",
+        "pdf_status": "prepared_demo",
+        "class_chat_destination": "CRJ_DEMO_PROJECT",
+        "approval_status": "user_review_required"
+      },
+      "output_folder": "demo/CRJ/Week_07/prepared_files/",
+      "cross_class_send": false
+    },
+    {
+      "course_key": "PSY",
+      "course_id": "demo-psy-course",
+      "item": {
+        "week_number": 7,
+        "item_type": "discussion_initial_post",
+        "item_title": "Demo Identity Forum",
+        "due_date": "2026-10-29T23:59:00-05:00",
+        "source_status": "synthetic_demo",
+        "draft_status": "review_required",
+        "pdf_status": "prepared_demo",
+        "class_chat_destination": "PSY_DEMO_PROJECT",
+        "approval_status": "user_review_required"
+      },
+      "output_folder": "demo/PSY/Week_07/prepared_files/",
+      "cross_class_send": false
+    }
+  ],
+  "guardrails": {
+    "read_only_blackboard_intake": true,
+    "no_credentials_stored": true,
+    "no_external_send": true,
+    "no_blackboard_submission": true,
+    "no_authorship_certification": true,
+    "user_approval_required_before_external_action": true
+  }
+}
