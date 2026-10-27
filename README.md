@@ -39,6 +39,8 @@ The [Wasteland Survivor proof](proofs/wasteland-survivor/README.md) shows a real
 
 The [proof index](PROOF_INDEX.md) maps each public artifact to the skills it supports and separates verified skills from claims that need another demonstration.
 
+The [Reworkio skill and proof inventory](REWORKIO_SKILL_INVENTORY.md) contains copy-ready project entries, exact custom skill tags, measured test evidence, supporting-project gaps, and the recommended submission order.
+
 ## Public safety boundary
 
 This repository must contain only public safe examples. Do not commit:
