@@ -10,7 +10,7 @@ This index maps public work artifacts to skills that a reviewer can actually ins
 
 - Repository: https://github.com/TaylorMade-Creations/linked-jobs-route-planner
 - Live deployment: https://www.routeplanner.space/
-- Evidence: map-first job planner, provider-separated job intake, route planning, Android share boundary, read-only email permissions, Secret Manager reference plan, browser-local connection state, and continuous route-creation recording in the related secure checkout.
+- Evidence: map-first job planner, provider-separated job intake, route planning, Android share boundary, read-only email permissions, Secret Manager reference plan, browser-local connection state, and two continuous route-creation recordings, including a Playwright automated run that leaves the numbered route visible.
 - Current local verification: 90 tests passed in the integrated checkout; the secure provider-connection checkout separately passed 77 tests.
 
 **Attach these skills:** JavaScript, HTML/CSS, Node.js, Workflow Automation, AI Integration & APIs when the form accepts connector-bound API work, Browser Automation, Data Pipelines & ETL, Git/GitHub, and Vercel deployment.

@@ -30,7 +30,7 @@ https://www.routeplanner.space/
 
 **Demo video**
 
-Upload `proofs/route-planner/route_creation_live.mp4` to an approved Loom, YouTube, or Vimeo account and paste that URL. The local recording is 29.36 seconds, H.264, and continuous.
+Upload `proofs/route-planner/route_creation_automated_run.mp4` to an approved Loom, YouTube, or Vimeo account and paste that URL. This is a 15.96-second H.264 recording of Playwright selecting two jobs, invoking the planner, and leaving the numbered return route visible. `route_creation_live.mp4` remains as the longer continuous browser run.
 
 **Outcome / ROI**
 
@@ -38,7 +38,7 @@ The planner turns scattered field-work records into a route-ready work queue wit
 
 **Verification**
 
-Public deployment returned HTTP 200. The integrated local checkout passed 90 tests, and the secure provider-connection checkout passed 77 tests. The live transit-feed endpoint also returned data successfully.
+The public deployment returned HTTP 200. The automated local recording passed its route-state assertions with two selected jobs and zero browser console errors. The integrated local checkout passed 90 tests, and the secure provider-connection checkout passed 77 tests. The live transit-feed endpoint also returned data successfully.
 
 ## Proof 2: Wasteland Survivor
 
