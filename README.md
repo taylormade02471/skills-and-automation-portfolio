@@ -14,7 +14,7 @@ skills-and-automation-portfolio/
   README.md
 ```
 
-## Current proof
+## Current proofs
 
 ### Blackboard Planner
 
@@ -30,6 +30,14 @@ The first public proof demonstrates a synthetic class separated weekly coursewor
 - A stop at the user approval gate before external actions
 
 Open the [Blackboard Planner proof](proofs/blackboard-planner/README.md).
+
+### Wasteland Survivor
+
+The [Wasteland Survivor proof](proofs/wasteland-survivor/README.md) shows a real browser run of the survival game prototype, including the offline guest path, lobby, loadout, and Nightfall flow.
+
+### Proof index
+
+The [proof index](PROOF_INDEX.md) maps each public artifact to the skills it supports and separates verified skills from claims that need another demonstration.
 
 ## Public safety boundary
 
